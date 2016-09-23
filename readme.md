@@ -1,20 +1,12 @@
 # <img src="https://cloud.githubusercontent.com/assets/7833470/10899314/63829980-8188-11e5-8cdd-4ded5bcb6e36.png" height="60"> Intro Ruby Training
 
-## Data Types & Variables
+### Data Types & Variables
 
-```rb
-# 1. Store your `first_name` in a variable and your `last_name`
-# in another variable.
-first_name = "Bob"
-last_name = "Smith"
+1. Store your `first_name` in a variable and your `last_name` in another variable.
 
-# 2. Concatenate your `first_name` and `last_name` variables,
-# and store the output in a new variable called `full_name`.
-full_name = "#{first_name} #{last_name}"
+2. Concatenate your `first_name` and `last_name` variables, and store the output in a new variable called `full_name`.
 
-# 3. Use `.split` to turn your `full_name` variable into an array.
-full_name.split
-```
+3. Use `.split` to turn your `full_name` variable into an array.
 
 ### Conditionals & Loops
 
@@ -30,9 +22,9 @@ full_name.split
   * **Hint:** Use `gets.chomp` instead of `gets` to remove trailing `\n`.
 
 
-## Stretch Challenges
+### Stretch Challenges
 
-### Iterator Methods
+#### Iterator Methods
 
 1. Define an array of 4 phrases: `"Hello, world"`, `"OMG"`, `"Ruby"`, and `"Pair Programming"`. Use `.each` to iterate over the array and `puts` each phrase.
 
@@ -43,7 +35,7 @@ full_name.split
 2. Write a program that maps an array of words to the reverse of each word. (**Hint:** Look up `.reverse`)
 
 
-### Temperature Converter
+#### Temperature Converter
 
 Create a simple temperature convertor. It should function like the example below:
 
@@ -55,7 +47,7 @@ Create a simple temperature convertor. It should function like the example below
   24 degrees Celsius is equal to 75.2 degrees Fahrenheit
   ```
 
-### Calculator
+#### Calculator
 
 Create a simple calculator that first asks the user what method they would like to use (addition, subtraction, multiplication, or division), then asks the user for two numbers, printing the result of the method with the two numbers. Here is a sample prompt:
 
@@ -69,7 +61,7 @@ Create a simple calculator that first asks the user what method they would like 
   The result is 9
   ```
 
-### Beer song
+#### Bottles of Beer
 
 Write a program that prints the "bottles of beer on the wall" song:
 
